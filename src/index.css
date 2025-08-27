@@ -52,12 +52,14 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: ;
   background-color: #FAFAFA;
   font-family: var(--ff-sans);
   color: var(--grey-500);
 }
 
-/* === Text Presets === */
 .text-preset-1 {
   font-family: var(--ff-sans);
   font-weight: var(--t1-weight);
